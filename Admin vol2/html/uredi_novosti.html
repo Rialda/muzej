@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='shortcut icon' type='image/x-icon' href='../img/favicon.ico' />
+    <title>Historijski muzej BiH Admin</title>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+  	<link href="../css/home.css" rel="stylesheet">
+    <link href="../css/novosti.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+<div class="container">
+<div class="content">
+<a href="home.html" target="_blank">  <img src="../img/logo.png" id="logo" title="Historijski Muzej BiH" /></a>
+<br/><natrag> Natrag na pocetnu </natrag>
+<br/><hr/><br/>
+
+
+<div id="sadrzaj">
+        <h3>Uredi nadolazece dogadjaje u Historijskom muzeju BiH</h3><br/>
+<hr/>
+      	<div  id="slike"> </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBlDnNzoVdpZu8qTGPTLXuvOgOSzDCA-_c",
+		authDomain: "historijskimuzejbih-985c5.firebaseapp.com",
+		databaseURL: "https://historijskimuzejbih-985c5.firebaseio.com",
+		storageBucket: "historijskimuzejbih-985c5.appspot.com",
+		messagingSenderId: "68525659311"
+	};
+	firebase.initializeApp(config);
+</script>
+<script src="index.js"></script>
+
+	</div>
+</div>
+<!--End Container-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--<script src="http://code.jquery.com/jquery.js"></script>-->
+
+
+<script src="../js/uredi_novosti.js"></script>
+
+
+
+
+
+
+</div> <!-- /content -->
+
+</div> <!-- /container -->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

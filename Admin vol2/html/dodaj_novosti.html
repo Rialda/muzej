@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='shortcut icon' type='image/x-icon' href='../img/favicon.ico' />
+    <title>Historijski muzej BiH Admin</title>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+  	<link href="../css/home.css" rel="stylesheet">
+    <link href="../css/novosti.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+<div class="container">
+<div class="content">
+<a href="home.html" target="_blank">  <img src="../img/logo.png" id="logo" title="Historijski Muzej BiH" /></a>
+<br/><natrag> Natrag na pocetnu </natrag>
+<br/><hr/><br/>
+
+
+<div id="sadrzaj">
+        <h3>Nadolazeci dogadaji u Historijskom muzeju BiH</h3><br/>
+<hr/>
+
+
+
+                   <form id="edit-form" class="form-horizontal" method="post">
+
+                            <!-- Form Name -->
+                            <legend style="padding-left: 5%; padding-top: 2%;">Sta je novo u Muzeju?</legend>
+
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="Naziv slike:">Naziv dogadjaja: </label>
+                            <div class="col-md-4">
+                            <input id="naziv_dogadjaja" name="Naziv slike:" type="text" placeholder="naziv dogadjaja..." class="form-control input-md">
+
+                            </div>
+                            </div>
+                            <!--  Dodaj URL slike -->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="Naziv slike:">URL slike dogadjaja</label>
+                            <div class="col-md-4">
+                            <input id="url_slike" name="URL slike:" type="text" placeholder="ovdje zalijepi URL slike dogadjaja..." class="form-control input-md">
+                            <!--<span class="help-block"> -> Ili ucitaj sliku sa racunara: </span>  -->
+
+                            </div>
+                            </div>
+
+                                <!-- Form Name -->
+                                <legend style="padding-left: 5%; padding-top: 1%;">Dodaj opis dogadjaja</legend>
+
+                                <!-- Textarea -->
+                                <div class="form-group">
+                                <label class="col-md-4 control-label" for="opis">Opis dogadjaja</label>
+                                <div class="col-md-4">
+                                    <textarea class="form-control" id="opis" name="opis" style="width: 500px; height: 200px;">...</textarea>
+                                </div>
+                                </div>
+
+                                <!-- Button -->
+                                <div class="form-group">
+                                <label class="col-md-4 control-label" for="dodaj"></label>
+                                <div class="col-md-4">
+                                    <button id="dodaj" type="submit" onclick="submitClick()" name="dodaj" class="btn btn-danger">Dodaj novi dogadjaj</button>
+                                </div>
+                                </div>
+
+
+                        </form>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBlDnNzoVdpZu8qTGPTLXuvOgOSzDCA-_c",
+    authDomain: "historijskimuzejbih-985c5.firebaseapp.com",
+    databaseURL: "https://historijskimuzejbih-985c5.firebaseio.com",
+    storageBucket: "historijskimuzejbih-985c5.appspot.com",
+    messagingSenderId: "68525659311"
+  };
+  firebase.initializeApp(config);
+
+</script>
+<script src="../js/whats_new.js"></script>
+
+
+<!-- /FIREBASE CONNECTION -->
+
+
+         <img class="dodaj" src="../img/dodaj_sadrzaj.png" style="width: 130px;
+    height: auto;
+    padding-left: 3%; margin-bottom: 10%;"/>
+
+
+</div> <!-- /content -->
+
+</div> <!-- /container -->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

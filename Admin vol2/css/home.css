@@ -1,0 +1,336 @@
+.content{
+background-color: rgba(255,255,255, 0.7);
+height: auto;
+width: 95%;
+}
+#logo{
+padding-left: 39%;
+padding-bottom: 3%;
+width: 60%;
+height: auto;
+opacity: 0.7;
+}
+
+.uredjivanje_galerija{
+  margin-top: -21%;
+  margin-left: 33%;
+}
+
+snap{
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 32%;
+  font-style: italic;
+}
+span{
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 34%;
+}
+
+
+.aktivne_galerije {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 0px;
+	-moz-box-shadow: 0px 0px 50px 21px #fff6af;
+	-webkit-box-shadow: 0px 0px 50px 21px #fff6af;
+	box-shadow: 0px 0px 50px 21px #fff6af;
+	background-color: rgba(26, 13, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:#fcfcfc;
+  font-family:Georgia;
+	font-size:18px;
+	font-weight:bold;
+	padding:32px 63px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #fff18a;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  padding-top: 8%;
+  opacity: 1 !important;
+}
+
+.aktivne_galerije:hover {
+	background-color:rgba(255, 255, 0, 0.6);
+  text-decoration: none;
+  color: black;
+}
+.aktivne_galerije:active {
+	position:relative;
+	top:1px;
+}
+
+.dodaj_galeriju {
+  margin-left: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.dodaj_galeriju:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+	color:#ff9d00;
+}
+.dodaj_galeriju:active {
+	position:relative;
+	top:1px;
+}
+
+.izbrisi_galeriju {
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.izbrisi_galeriju:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+  color:#ff9d00;
+}
+.izbrisi_galeriju:active {
+	position:relative;
+	top:1px;
+}
+
+.dodaj_sadrzaj {
+  margin-left: 20px;
+  margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.dodaj_sadrzaj:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+  color:#ff9d00;
+}
+.dodaj_sadrzaj:active {
+	position:relative;
+	top:1px;
+}
+.preuredi_sadrzaj {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.preuredi_sadrzaj:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+  color:#ff9d00;
+}
+.preuredi_sadrzaj:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.novosti {
+  margin: 40px;
+	-moz-box-shadow: 0px 0px 50px 21px #fff6af;
+	-webkit-box-shadow: 0px 0px 50px 21px #fff6af;
+	box-shadow: 0px 0px 50px 21px #fff6af;
+  background-color: rgba(26, 13, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:#fcfcfc;
+  font-family:Georgia;
+	font-size:18px;
+	font-weight:bold;
+	padding:32px 63px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #fff18a;
+  height: 200px;
+  width: 300px;
+
+  text-align: center;
+  padding-top: 8%;
+  opacity: 1 !important;
+}
+
+.novosti:hover {
+  background-color:rgba(255, 255, 0, 0.6);
+  text-decoration: none;
+  color:  black;
+}
+.novosti:active {
+	position:relative;
+	top:1px;
+}
+
+.dodaj_novosti {
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.dodaj_novosti:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+  color:#ff9d00;
+}
+.dodaj_novosti:active {
+	position:relative;
+	top:1px;
+}
+
+.preuredi_novosti {
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.preuredi_novosti:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration: none;
+  color:#ff9d00;
+}
+.preuredi_novosti:active {
+	position:relative;
+	top:1px;
+}
+
+
+.moj_profil {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 30%;
+  background-color: rgba(26, 13, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(255, 255, 0, 0.7);
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+  padding-left: 11%;
+	text-decoration:none;
+}
+.moj_profil:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration:none;
+color:rgba(26, 13, 0, 0.5);
+}
+.moj_profil:active {
+	position:relative;
+	top:1px;
+}
+.ocjena {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(26, 13, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(255, 255, 0, 0.7);
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 76px;
+	text-decoration:none;
+}
+.ocjena:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration:none;
+  color:rgba(26, 13, 0, 0.5);
+}
+.ocjena:active {
+	position:relative;
+	top:1px;
+}

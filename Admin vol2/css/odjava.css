@@ -1,0 +1,23 @@
+.odjava {
+  float:right;
+  margin-top: -4%;
+    margin-right: 5%;
+	background-color:#e4685d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:16px;
+	font-style:italic;
+	padding:11px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.odjava:hover {
+	background-color:#eb675e;
+  text-decoration: none;
+}
+.odjava:active {
+	position:relative;
+	top:1px;
+}

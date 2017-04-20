@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='shortcut icon' type='image/x-icon' href='../img/favicon.ico' />
+    <title>Historijski muzej BiH Admin</title>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  	<link href="../css/mojprofil.css" rel="stylesheet">
+    <link href="../css/galerija.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+<div class="container">
+<div class="content">
+<a href="aktivne_galerije.html">  <img src="../img/logo.png" id="logo"/></a>
+<br/>
+<span> Natrag na galerije </span>
+<br/><hr/><br/>
+
+
+  <h3>Uredi galeriju:  </h3><br/>
+  <div  id="slike"> </div>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+apiKey: "AIzaSyBlDnNzoVdpZu8qTGPTLXuvOgOSzDCA-_c",
+authDomain: "historijskimuzejbih-985c5.firebaseapp.com",
+databaseURL: "https://historijskimuzejbih-985c5.firebaseio.com",
+storageBucket: "historijskimuzejbih-985c5.appspot.com",
+messagingSenderId: "68525659311"
+};
+firebase.initializeApp(config);
+</script>
+<script src="../js/editimagesdownspace.js"></script>
+
+
+</body>
+
+</html>

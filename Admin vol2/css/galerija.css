@@ -1,0 +1,30 @@
+body {
+padding-top: 50px;
+padding-bottom: 50px;
+
+background-image: url("../img/muzej.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.content{
+background-color: rgba(255,255,255, 0.7);
+height: auto;
+width: 95%;
+padding-left: 5%;
+padding-bottom: 20%;
+padding-right: 5%;
+
+}
+#logo{
+padding-left: 39%;
+padding-top: 5%;
+padding-bottom: 3%;
+width: 60%;
+height: auto;
+opacity: 0.7;
+}
+span{
+  padding-left: 43%;
+  font-style: oblique;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='shortcut icon' type='image/x-icon' href='../img/favicon.ico' />
+    <title>Historijski muzej BiH Admin</title>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+  	<link href="../css/mojprofil.css" rel="stylesheet">
+    <link href="../css/podsjetnici.css" rel="stylesheet">
+    <link href="../css/odjava.css" rel="stylesheet">
+    <link href="../css/rate.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+<div class="container">
+  <a href="../index.html" class="odjava">Odjavi se</a>
+
+<div class="content">
+<a href="home.html">  <img src="../img/logo.png" id="logo"/></a>
+<br/>
+<span> Natrag na pocetnu</span>
+<br/><hr/><br/>
+
+<!--Start Content-->
+<h4> Ocjene muzeja preko Android aplikacije: </h4>
+
+<img class="star" src="../img/star.png" /> <div id="star1" class="ocjene"><h4>3</h4></div> <br/>
+<img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /> <div id="star2" class="ocjene"><h4>0</h4> </div> <br/>
+<img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /> <div id="star3" class="ocjene"><h4>2</h4> </div> <br/>
+<img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /> <div id="star4" class="ocjene"><h4>12</h4></div> <br/>
+<img class="star" src="../img/star.png" /> <img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><img class="star" src="../img/star.png" /><div id="star5" class="ocjene"><h4>27</h4></div> <br/>
+
+<br/>
+<hr/>
+
+<h4> Takmicenje za najbolju sliku iz muzeja:  </h4>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBlDnNzoVdpZu8qTGPTLXuvOgOSzDCA-_c",
+    authDomain: "historijskimuzejbih-985c5.firebaseapp.com",
+    databaseURL: "https://historijskimuzejbih-985c5.firebaseio.com",
+    storageBucket: "historijskimuzejbih-985c5.appspot.com",
+    messagingSenderId: "68525659311"
+  };
+  firebase.initializeApp(config);
+
+</script>
+<script src="../js/rate.js"></script>
+
+
+
+</div> <!-- /content -->
+
+</div> <!-- /container -->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

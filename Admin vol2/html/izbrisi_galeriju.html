@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='shortcut icon' type='image/x-icon' href='../img/favicon.ico' />
+    <title>Historijski muzej BiH Admin</title>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+  	<link href="../css/mojprofil.css" rel="stylesheet">
+    <link href="../css/podsjetnici.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+<div class="container">
+<div class="content">
+<a href="home.html">  <img src="../img/logo.png" id="logo"/></a>
+<br/>
+<span> Natrag na pocetnu </span>
+<br/><hr/><br/>
+
+<!--Start Content-->
+
+                   <form id="edit-form" class="form-horizontal" method="post">
+
+                            <!-- Form Name -->
+                            <legend style="padding-left: 5%; padding-top: 2%;">Ukloni galeriju</legend>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                            <label class="col-md-4 control-label" for="Galerija">Obrisi galeriju sa svim sadrzajem: </label>
+                            <div class="col-md-4">
+                          <!--  <input id="galerija" name="Galerija" type="text" placeholder="naziv galerije..." class="form-control input-md">-->
+														<input class="galerija" type="checkbox" name="galerija" value="ImagesBottomSpace">Galerija u podrumu<br>
+														<input class="galerija" type="checkbox" name="galerija" value="ImagesLeftSpace" >Galerija u lijevom hodniku<br>
+														<input class="galerija" type="checkbox" name="galerija" value="ImagesRigthSpace">Galerija u desnom hodniku<br>
+														<input class="galerija" type="checkbox" name="galerija" value="ImagesUpSpace" >Galerija na spratu<br>
+                            </div>
+                            </div>
+
+                                <!-- Button -->
+                                <div class="form-group">
+                                <label class="col-md-4 control-label" for="dodaj"></label>
+                                <div class="col-md-4">
+                                    <button id="dodaj" type="submit" onclick="submitClick()" name="dodaj" class="btn btn-danger">Ukloni sav sadrzaj galerije</button>
+                                </div>
+                                </div>
+
+
+                        </form>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBlDnNzoVdpZu8qTGPTLXuvOgOSzDCA-_c",
+    authDomain: "historijskimuzejbih-985c5.firebaseapp.com",
+    databaseURL: "https://historijskimuzejbih-985c5.firebaseio.com",
+    storageBucket: "historijskimuzejbih-985c5.appspot.com",
+    messagingSenderId: "68525659311"
+  };
+  firebase.initializeApp(config);
+
+</script>
+<script src="../js/delete.js"></script>
+
+
+<!-- /FIREBASE CONNECTION -->
+
+<img class="dodaj" src="../img/delete.png" style="width: 130px; height: auto; padding-left: 3%;" />
+
+
+</div> <!-- /content -->
+
+</div> <!-- /container -->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

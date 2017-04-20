@@ -1,0 +1,57 @@
+.content{
+background-color: rgba(255,255,255, 0.7);
+height: auto;
+width: 95%;
+padding-left: 20%;
+padding-bottom: 20%;
+padding-right: 20%;
+
+}
+#logo{
+padding-left: 39%;
+padding-top: 5%;
+padding-bottom: 3%;
+width: 60%;
+height: auto;
+opacity: 0.7;
+}
+span{
+  padding-left: 36.5%;
+  font-style: oblique;
+}
+
+
+.moj_profil {
+  margin-left: 0px;
+  margin-top: 5%;
+  margin-bottom: 40px;
+  width: 40%;
+  height: 0%;
+  background-color: rgba(26, 13, 0, 0.5);
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(255, 255, 0, 0.7);
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+  padding: 3%;
+  padding-left: 10%;
+
+	text-decoration:none;
+}
+.moj_profil:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f7f7), color-stop(1, #fffefc));
+	background:-moz-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-webkit-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-o-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:-ms-linear-gradient(top, #f7f7f7 5%, #fffefc 100%);
+	background:linear-gradient(to bottom, #f7f7f7 5%, #fffefc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fffefc',GradientType=0);
+	background-color:#f7f7f7;
+  text-decoration:none;
+color:rgba(26, 13, 0, 0.5);
+}
+.moj_profil:active {
+	position:relative;
+	top:1px;
+}
